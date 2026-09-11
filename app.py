@@ -8,9 +8,9 @@ import os
 
 load_dotenv()
 
-st.write("Tracing:", os.getenv("LANGCHAIN_TRACING_V2"))
-st.write("Project:", os.getenv("LANGCHAIN_PROJECT"))
-st.write("API key present:", bool(os.getenv("LANGCHAIN_API_KEY")))
+# st.write("Tracing:", os.getenv("LANGCHAIN_TRACING_V2"))
+# st.write("Project:", os.getenv("LANGCHAIN_PROJECT"))
+# st.write("API key present:", bool(os.getenv("LANGCHAIN_API_KEY")))
 
 if "thread_id" not in st.session_state:
     st.session_state.thread_id = str(uuid.uuid4())
