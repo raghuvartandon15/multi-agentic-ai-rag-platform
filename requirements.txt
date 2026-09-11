@@ -1,0 +1,16 @@
+langchain_community
+langchain_huggingface
+langchain_chroma
+beautifulsoup4
+langchain
+sentence-transformers
+langchain-groq
+rank_bm25
+python-dotenv
+langchain_tavily
+langgraph_supervisor
+streamlit
+pypdf
+
+torch==2.13.0
+torchvision==0.28.0
